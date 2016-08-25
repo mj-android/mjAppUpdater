@@ -1,0 +1,7 @@
+<resources>
+    <string name="dialogTitle">New update available!</string>
+    <string name="dialogDescription">Check out the new update for %1$s!\nAvailable now on %2$s.</string>
+    <string name="dialogOKButton">OK</string>
+    <string name="dialogLaterButton">Later</string>
+    <string name="dialogNoThanksButton">No, thanks</string>
+</resources>

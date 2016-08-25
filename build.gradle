@@ -1,0 +1,36 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.3'
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    minSdkVersion = 10
+    compileSdkVersion = 24
+    targetSdkVersion = compileSdkVersion
+    buildToolsVersion = '24.0.2'
+    supportLibraryVersion = '24.2.0'
+
+    userOrg = 'blackdole'
+    groupId = 'net.djcp'
+    artifactId = 'mjappupdater'
+    version = '1.0.0'
+    description = 'An Android library that checks for your application\'s updates on Google Play Store.'
+    website = 'https://github.com/mj-android/mjAppUpdater.git'
+    licences = ['Apache-2.0']
+}

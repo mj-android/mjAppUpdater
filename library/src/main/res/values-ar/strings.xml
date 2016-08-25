@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">هنالك تحديث جديد</string>
+    <string name="dialogDescription">أنظر للتحديث الجديد لـ %1$s!\متوفر الآن على  %2$s.</string>
+    <string name="dialogOKButton">موافق</string>
+    <string name="dialogLaterButton">لاحقا</string>
+    <string name="dialogNoThanksButton">لا,شكرا</string>
+</resources>

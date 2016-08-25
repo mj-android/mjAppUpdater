@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Atnaujinimas</string>
+    <string name="dialogDescription">Jau galite atsisiųsti naują %1$s! versiją iš %2$s</string>
+    <string name="dialogOKButton">Atsisiųsti</string>
+    <string name="dialogLaterButton">Vėliau</string>
+    <string name="dialogNoThanksButton">Ačiū, ne</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">更新が見つかりました</string>
+    <string name="dialogDescription">%1$sの新しいバージョンが見つかりました。%2$sを開いてダウンロードしますか？</string>
+    <string name="dialogOKButton">ダウンロード</string>
+    <string name="dialogLaterButton">後で再度通知する</string>
+    <string name="dialogNoThanksButton">無視する</string>
+</resources>

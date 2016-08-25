@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Nájdená nová aktualizácia</string>
+    <string name="dialogDescription">Pozrite sa na novú aktualizáciu pre %1$s!\nTeraz dostupná v %2$s.</string>
+    <string name="dialogOKButton">OK</string>
+    <string name="dialogLaterButton">Neskôr</string>
+    <string name="dialogNoThanksButton">Nie, vďaka</string>
+</resources>

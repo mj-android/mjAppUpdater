@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Új frissítés érhető el</string>
+    <string name="dialogDescription">Telepítsd az új %1$s verziót - már letölthető a %2$s-ről.</string>
+    <string name="dialogOKButton">Frissítem</string>
+    <string name="dialogLaterButton">Később</string>
+    <string name="dialogNoThanksButton">Nem, köszönöm</string>
+</resources>

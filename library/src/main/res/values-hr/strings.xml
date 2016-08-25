@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Pronađeno novo ažuriranje</string>
+    <string name="dialogDescription">Provjerite novo ažuriranje za %1$s!\nDostupno na %2$s.</string>
+    <string name="dialogOKButton">U redu</string>
+    <string name="dialogLaterButton">Poslije</string>
+    <string name="dialogNoThanksButton">Ne, hvala</string>
+</resources>

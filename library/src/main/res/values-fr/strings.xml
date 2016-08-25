@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Nouvelle mise à jour trouvée</string>
+    <string name="dialogDescription">Vérification d\'une nouvelle mise à jour pour %1$s!\nDisponible dès maintenant sur %2$s.</string>
+    <string name="dialogOKButton">OK</string>
+    <string name="dialogLaterButton">Plus tard</string>
+    <string name="dialogNoThanksButton">Non merci</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">S\'ha trobat una nova actualització</string>
+    <string name="dialogDescription">Fes una ullada a la nova actualització per %1$s!\nDisponible ara a %2$s.</string>
+    <string name="dialogOKButton">Valorar ara</string>
+    <string name="dialogLaterButton">Més tard</string>
+    <string name="dialogNoThanksButton">No gràcies</string>
+</resources>

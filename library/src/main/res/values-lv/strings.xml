@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle"> Atjaunojums</string>
+    <string name="dialogDescription">Jau varat lejupielādēt jauno %1$s! versiju no %2$s</string>
+    <string name="dialogOKButton">Lejupielādēt</string>
+    <string name="dialogLaterButton">Vēlāk</string>
+    <string name="dialogNoThanksButton">Paldies, nē</string>
+</resources>

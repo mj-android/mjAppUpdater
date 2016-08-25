@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Nuovo aggiornamento trovato</string>
+    <string name="dialogDescription">Scarica il nuovo aggiornamento per %1$s!\nDisponibile ora su %2$s.</string>
+    <string name="dialogOKButton">OK</string>
+    <string name="dialogLaterButton">Dopo</string>
+    <string name="dialogNoThanksButton">No, grazie</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="dialogTitle">새 버전이 출시되었습니다.</string>
+    <string name="dialogDescription">%1$s의 새 버전이 올라왔습니다.\n%2$s로 이동 할까요?</string>
+    <string name="dialogOKButton">네</string>
+    <string name="dialogLaterButton">아니오</string>
+    <string name="dialogNoThanksButton">나중에</string>
+</resources>

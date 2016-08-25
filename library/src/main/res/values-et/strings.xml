@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Uuendus</string>
+    <string name="dialogDescription">Nüüd saate alla laadida uut %1$s! versiooni %2$s</string>
+    <string name="dialogOKButton">Alla laadida</string>
+    <string name="dialogLaterButton">Hiljem</string>
+    <string name="dialogNoThanksButton">Tänan, ei soovi</string>
+</resources>

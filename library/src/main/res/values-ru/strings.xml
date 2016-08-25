@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Доступно обновление</string>
+    <string name="dialogDescription">Проверьте обновление для %1$s!\nДоступное в настоящее время на %2$s.</string>
+    <string name="dialogOKButton">Оценить сейчас</string>
+    <string name="dialogLaterButton">Напомнить позже</string>
+    <string name="dialogNoThanksButton">Спасибо, но нет</string>
+</resources>

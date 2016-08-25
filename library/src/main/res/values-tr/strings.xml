@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Yeni Güncelleme Bulundu</string>
+    <string name="dialogDescription"> %1$suygulamasının yeni güncellemesi çıktı!\n%2$s\'den indirebilirsin.</string>
+    <string name="dialogOKButton">Güncelle</string>
+    <string name="dialogLaterButton">Daha sonra</string>
+    <string name="dialogNoThanksButton">Hayır, teşekkürler</string>
+</resources>
