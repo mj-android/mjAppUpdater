@@ -27,12 +27,11 @@ dependencies {
 }
 
 publish {
-    userOrg = rootProject.userOrg
-    groupId = rootProject.groupId
-    artifactId = rootProject.artifactId
-    version = rootProject.ext.version
-    description = rootProject.ext.description
-    website = rootProject.website
-    licences = rootProject.licences
+    userOrg = 'blackdole'
+    groupId = 'net.djcp'
+    artifactId = 'mjappupdater'
+    version = '1.0.0'
+    description = 'An Android library that checks for your application\'s updates on Google Play Store.'
+    website = 'https://github.com/mj-android/mjAppUpdater.git'
+    licences = ['Apache-2.0']
 }
-

@@ -25,12 +25,4 @@ ext {
     targetSdkVersion = compileSdkVersion
     buildToolsVersion = '24.0.2'
     supportLibraryVersion = '24.2.0'
-
-    userOrg = 'blackdole'
-    groupId = 'net.djcp'
-    artifactId = 'mjappupdater'
-    version = '1.0.0'
-    description = 'An Android library that checks for your application\'s updates on Google Play Store.'
-    website = 'https://github.com/mj-android/mjAppUpdater.git'
-    licences = ['Apache-2.0']
 }

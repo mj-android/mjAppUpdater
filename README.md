@@ -1,4 +1,4 @@
-#mjAutoUpdater
+#mjAppUpdater
 =====
 An Android library that checks for your application's updates on Google Play Store.
 
@@ -10,7 +10,7 @@ An Android library that checks for your application's updates on Google Play Sto
 ```
 <dependency>
   <groupId>net.djcp</groupId>
-  <artifactId>mjautoupdater</artifactId>
+  <artifactId>mjappupdater</artifactId>
   <version>1.0.0</version>
   <type>pom</type>
 </dependency>
@@ -19,7 +19,7 @@ An Android library that checks for your application's updates on Google Play Sto
 ###Gradle
 ```groovy
 dependencies { 
-    compile 'net.djcp:mjautoupdater:1.0.0'
+    compile 'net.djcp:mjappupdater:1.0.0'
 }
 ```
 
