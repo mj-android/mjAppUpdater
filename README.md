@@ -2,7 +2,7 @@
 =====
 An Android library that checks for your application's updates on Google Play Store.
 
-[![Download](https://api.bintray.com/packages/blackdole/maven/mjautoupdater/images/download.svg)](https://bintray.com/blackdole/maven/mjautoupdater/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/blackdole/maven/mjappupdater/images/download.svg) ](https://bintray.com/blackdole/maven/mjappupdater/_latestVersion)
 [![API](https://img.shields.io/badge/API-10%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=10)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 

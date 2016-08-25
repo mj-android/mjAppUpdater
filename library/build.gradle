@@ -30,8 +30,8 @@ publish {
     userOrg = rootProject.userOrg
     groupId = rootProject.groupId
     artifactId = rootProject.artifactId
-    version = rootProject.version
-    description = rootProject.description
+    version = rootProject.ext.version
+    description = rootProject.ext.description
     website = rootProject.website
     licences = rootProject.licences
 }
