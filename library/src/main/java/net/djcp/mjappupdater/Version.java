@@ -5,7 +5,6 @@ import android.util.Log;
 
 public class Version implements Comparable<Version> {
 
-    private static final String TAG = Version.class.getSimpleName();
     private String mVersion;
 
     public final String get() {

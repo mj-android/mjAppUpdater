@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 public class PrefManager {
 
     private final int PRIVATE_MODE = 0;
-    private final String PREF_NAME = "$AutoUpdaterPref";
+    private final String PREF_NAME = "$AppUpdaterPref";
     private final String KEY_UPDATE_SHOW = "$UpdaterShow";
     private static PrefManager mPrefManager = null;
     private Context mContext;

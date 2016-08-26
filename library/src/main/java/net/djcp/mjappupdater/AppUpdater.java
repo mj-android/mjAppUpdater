@@ -53,7 +53,6 @@ public class AppUpdater {
     }
 
     public static class Builder {
-
         private Context mContext;
         private String mDialogTitle;
         private String mDialogDesc;
@@ -99,7 +98,6 @@ public class AppUpdater {
             appUpdater.mBtnNoThanks = mBtnNoThanks;
             return appUpdater;
         }
-
     }
 
 }
