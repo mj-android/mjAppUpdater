@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
+import net.djcp.mjpreferences.Preferences;
 
 public final class Utils {
 
@@ -52,7 +53,7 @@ public final class Utils {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
-                        PrefManager.getInstance(context).setAppUpdaterShow(appVersion, false);
+                        Preferences.putBoolean(Constants.KEY_APPUPDATER_SHOW + appVersion, false);
                     }
                 }).create().show();
     }

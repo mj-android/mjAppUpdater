@@ -2,14 +2,14 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
 android {
-    compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion rootProject.minSdkVersion
-        targetSdkVersion rootProject.targetSdkVersion
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
     }
     buildTypes {
         release {
@@ -22,7 +22,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:' + rootProject.supportLibraryVersion
+    compile 'com.android.support:appcompat-v7:' + rootProject.ext.supportLibraryVersion
+    compile 'net.djcp:mjpreferences:1.0.1'
     compile 'org.jsoup:jsoup:1.9.2'
 }
 
@@ -30,7 +31,7 @@ publish {
     userOrg = 'blackdole'
     groupId = 'net.djcp'
     artifactId = 'mjappupdater'
-    version = '1.0.0'
+    version = '1.0.1'
     description = 'An Android library that checks for your application\'s updates on Google Play Store.'
     website = 'https://github.com/mj-android/mjAppUpdater.git'
     licences = ['Apache-2.0']

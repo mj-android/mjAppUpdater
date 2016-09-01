@@ -45,5 +45,4 @@ public class PlayStore {
         intent.setData(Uri.parse(String.format(URL_PLAY_STORE, context.getPackageName())));
         context.startActivity(intent);
     }
-
 }

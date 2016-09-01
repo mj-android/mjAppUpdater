@@ -2,6 +2,7 @@ package net.djcp.mjappupdater;
 
 import android.content.Context;
 import android.util.Log;
+import net.djcp.mjpreferences.Preferences;
 
 public class AppUpdater {
 
@@ -15,6 +16,7 @@ public class AppUpdater {
 
     private AppUpdater(Context context) {
         mContext = context;
+        new Preferences.Builder().setContext(context).build();
     }
 
     public void create() {
@@ -23,15 +25,17 @@ public class AppUpdater {
         }
 
         String appVersion = Utils.getAppVersion(mContext);
-        if (!PrefManager.getInstance(mContext).getAppUpdaterShow(appVersion)) {
+        if (!Preferences.getBoolean(Constants.KEY_APPUPDATER_SHOW + appVersion, true)) {
             return;
         }
+
         String appStoreVersion = PlayStore.getLastestVersion(mContext);
         Log.i(TAG, "appVersion: " + appVersion + ", appStoreVersion: " + appStoreVersion);
 
         if (appVersion.isEmpty() || appStoreVersion.isEmpty()) {
             return;
         }
+
         int retVal = 0;
         try {
             Version oldVersion = new Version(appVersion);
